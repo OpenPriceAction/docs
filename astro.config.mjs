@@ -23,6 +23,8 @@ export const locales = {
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://openpriceaction.github.io',
+	base: '/docs/',
 	image: {
 		service: passthroughImageService(),
 	  },
